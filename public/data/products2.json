@@ -1,0 +1,39 @@
+{
+"products" : [
+    {
+        "id": 1,
+        "name": "Comfy Slippers",
+        "price": 12.00,
+        "category": "Footwear",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed leo ultrices, interdum nisi eget, dictum leo. Ut egestas facilisis metus sed elementum. Phasellus auctor lobortis suscipit. Pellentesque ut arcu non nibh pharetra sollicitudin id et ipsum. Fusce facilisis nec mauris nec sollicitudin."
+    },
+    {
+        "id": 2,
+        "name": "Trail Runners",
+        "price": 45.50,
+        "category": "Footwear",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed leo ultrices, interdum nisi eget, dictum leo."
+    },
+    {
+        "id": 3,
+        "name": "Hikers",
+        "price": 80.00,
+        "category": "Footwear",
+        "summary": "Pellentesque ut arcu non nibh pharetra sollicitudin id et ipsum. Fusce facilisis nec mauris nec sollicitudin. Mauris convallis ante nec libero imperdiet, eu molestie metus efficitur. In hac habitasse platea dictumst. Vivamus dapibus libero ut ante pulvinar interdum."
+    },
+    {
+        "id": 4,
+        "name": "Ski Jacket",
+        "price": 120.00,
+        "category": "Jackets",
+        "summary": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce sed leo ultrices, interdum nisi eget, dictum leo. Ut egestas facilisis metus sed elementum."
+    },
+    {
+        "id": 5,
+        "name": "Winter Parka",
+        "price": 230.50,
+        "category": "Jackets",
+        "summary": "Fusce sed leo ultrices, interdum nisi eget, dictum leo. Ut egestas facilisis metus sed elementum. Phasellus auctor lobortis suscipit."
+    }
+]
+}

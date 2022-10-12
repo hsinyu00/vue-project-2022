@@ -1,26 +1,30 @@
 <template>
-  <img alt="Vue logo" src="./assets/logo.png">
-  <HelloWorld msg="Welcome to Your Vue.js App"/>
+  <router-link class="nav" :class="{active: $route.name === 'Shop'}" to="/shop">Shop</router-link> | 
+  <router-link class="nav" :class="{active: $route.name === 'Cart'}" to="/cart">Cart</router-link>
+  <router-view />
 </template>
 
 <script>
-import HelloWorld from './components/HelloWorld.vue'
-
-export default {
-  name: 'App',
-  components: {
-    HelloWorld
+  export default {
+    created() {
+        this.$store.commit('loadCart')
+    }
   }
-}
 </script>
 
-<style>
+<style lang="scss">
 #app {
   font-family: Avenir, Helvetica, Arial, sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
   text-align: center;
-  color: #2c3e50;
+  color: #333;
   margin-top: 60px;
 }
+
+.nav.active {
+    color: black;
+    font-weight: bold;
+}
+
 </style>
